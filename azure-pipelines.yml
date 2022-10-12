@@ -15,8 +15,8 @@ steps:
     mavenPomFile: 'Test01/pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
-    jdkVersionOption: '17.0.4.1'
+    jdkVersionOption: '1.8'
     jdkArchitectureOption: 'x64'
     publishJUnitResults: true
     testResultsFiles:  '**/TEST-*.xml'
-    goals: 'package'
+    goals: 'install'

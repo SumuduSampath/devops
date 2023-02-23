@@ -23,9 +23,7 @@
 					<reportsDirectory>./test-output</reportsDirectory>
 
 					<skipTests>false</skipTests>
-					<!-- <suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
-					</suiteXmlFiles>-->
+					
 				</configuration>
 			</plugin>
 
